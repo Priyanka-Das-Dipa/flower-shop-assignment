@@ -23,7 +23,8 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
-.banner-discription button{
+/* All button Style */
+#btn{
     color: #ffffff;
     background: #E55473;
     font-weight: 700;
@@ -37,6 +38,116 @@
     width: 635px;
     padding-top: 50px;
 }
+
+ /* Hot-deals section */
+.hot-deals{
+    padding: 50px;
+    align-items: center;
+}
+.hot-deals{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    gap: 50px;
+}
+.hot-deals-discription h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    padding-top: 230px;
+    margin-bottom: 32px;
+}
+.hot-deals-discription p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+}
+span{
+    color: #E55473;
+}
+#btn{
+    align-items: center;
+    color: #ffffff;
+    background: #E55473;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 10px;
+}
+/* Instagram Section */
+
+.instagram h1{
+    padding-top: 120px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram p{
+    padding-top: 24px;
+    padding-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.box img{
+    width: 342px;
+    height: 396px;
+    padding-bottom: 120px;
+}
+/* Get The latest deals */
+
+.deals{
+    background-image: url('../images/Rectangle 9.png');
+    text-align: center;
+    width: 1440;
+    height: 449px;
+    background-repeat: no-repeat;
+    margin-bottom: 128px;
+    margin-left: 40px;
+}
+.deals-discription h1{
+    padding-top: 122px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.deals-discription p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.deals-discription input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* Footer Section */
+
+
+
+
 
 
 
