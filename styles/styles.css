@@ -23,6 +23,58 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
+/* Our Featured Flowers */
+
+.flowers h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 150px;
+    margin-bottom: 24px;
+}
+.flowers p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.flower-container{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 40px;
+    
+
+}
+.figure{
+    border: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 60px;
+    padding-left: 47px;
+    padding-right: 47px;
+    
+}
+figcaption{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 128px;
+}
+#img1{
+    background: rgba(167, 33, 98, 0.15);
+}
+#img2{
+    background: rgba(5, 151, 160, 0.15);
+}
+#img3{
+    background: rgba(71, 125, 17, 0.15);
+}
 /* All button Style */
 #btn{
     color: #ffffff;
@@ -175,6 +227,13 @@ span{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+.copyright p{
+    align-items: start;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
