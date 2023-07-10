@@ -1,0 +1,42 @@
+/* Banner Section */
+*{
+    margin: 0px;
+}
+.banner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-discription h2{
+    color: #272727;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner-discription p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-discription button{
+    color: #ffffff;
+    background: #E55473;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 10px;
+}
+.banner-img{
+    height: 800px;
+    width: 635px;
+    padding-top: 50px;
+}
+
+
+
