@@ -1,13 +1,20 @@
 /* Banner Section */
 *{
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 .banner{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+}
+.banner-background-color {
     background-color: rgba(229, 84, 115, 0.10);
+}
+.container {
+  max-width: 1260px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
 }
 .banner-discription h2{
     color: #272727;
@@ -65,7 +72,7 @@ figcaption{
     margin-bottom: 128px;
 }
 #img1{
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15);    
 }
 #img2{
     background: rgba(5, 151, 160, 0.15);
@@ -135,6 +142,9 @@ span{
     border: none;
     border-radius: 10px;
 }
+.hot-deal-btn-container {
+    text-align: center;
+}
 /* Instagram Section */
 
 .instagram h1{
@@ -157,20 +167,23 @@ span{
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 30px;
 }
 .box img{
-    width: 342px;
-    height: 396px;
-    padding-bottom: 120px;
+    width: 290px;
+    height: 320px;
+    padding-bottom: 100px;
 }
 /* Bonus Section Buy finest flower from us */
 .finest-flower{
     text-align: center;
 }
+.finest-flower img {
+    width: 100%;
+    height: 300px;
+}
 .finest-flower h1{
-    padding-top: 100px;
+    padding-top: 50px;
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -186,26 +199,31 @@ span{
 }
 .flower-box{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     gap: 40px;
-    padding: 50px 100px 120px 100px;
+    padding-left: 40px;
+    padding-bottom: 120px;
 
 }
+.flower-box a{
+    color: #FFF;
+    text-decoration: none;
+}
 #box1{
-    /* border: 1px solid black; */
-    padding: 20px 25px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #ec8da1;
+    border: 1px solid #d3d3d3;
+    box-shadow: 20px 20px 50px #eee;    
 }
 #box1 h3{
     font-size: 30px;
+    padding-top: 20px;
     margin-bottom: 0px;
 
 }
 #box1 p{
     font-size:18px;
     margin-bottom: 0px;
+    padding: 20px;
 }
 .box-btn{
     align-items: center;
@@ -216,21 +234,19 @@ span{
     padding: 18px 40px;
     border: none;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
-
-
 
 /* Get The latest deals */
 
 .deals{
     background-image: url('../images/Rectangle 9.png');
+    object-fit: contain;
     text-align: center;
     width: 1440;
     height: 449px;
     background-repeat: no-repeat;
-    margin-bottom: 128px;
-    margin-left: 40px;
+    margin: 50px 0px 128px 40px;
 }
 .deals-discription h1{
     padding-top: 122px;
@@ -266,12 +282,12 @@ span{
 .footer{
     background-color: black;
     color: rgba(255, 255, 255, 0.90);
+    padding: 128px;
 }
 .footer-discription{
     text-align: center;
-    padding: 128px;
 }
-..footer-discription p{
+.footer-discription p{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
