@@ -13,17 +13,17 @@
     background-color: rgba(229, 84, 115, 0.10);
 }
 .container {
-  max-width: 1260px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 1260px; 
+  margin: 0 auto;
 }
-.banner-discription h2{
+.banner-description h2{
     color: #272727;
     font-style: normal;
     font-size: 70px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.banner-discription p{
+.banner-description p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-style: normal;
@@ -31,7 +31,6 @@
     margin-bottom: 30px;
 }
 /* Our Featured Flowers */
-
 .flowers h2{
     color: #272727;
     text-align: center;
@@ -84,7 +83,6 @@ figcaption{
     width: 310px;
     height: 428px;
 }
-
 /* All button Style */
 #btn{
     color: #ffffff;
@@ -101,7 +99,6 @@ figcaption{
     padding-top: 50px;
 }
  /* Hot-deals section */
- 
 .hot-deals{
     padding: 50px;
     align-items: center;
@@ -114,7 +111,7 @@ figcaption{
     height: 620px;
     gap: 50px;
 }
-.hot-deals-discription h2{
+.hot-deals-description h2{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -122,7 +119,7 @@ figcaption{
     padding-top: 230px;
     margin-bottom: 32px;
 }
-.hot-deals-discription p{
+.hot-deals-description p{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -146,7 +143,6 @@ span{
     text-align: center;
 }
 /* Instagram Section */
-
 .instagram h1{
     padding-top: 120px;
     color: #272727;
@@ -236,9 +232,7 @@ span{
     border-radius: 10px;
     margin-bottom: 50px;
 }
-
 /* Get The latest deals */
-
 .deals{
     background-image: url('../images/Rectangle 9.png');
     object-fit: contain;
@@ -248,7 +242,7 @@ span{
     background-repeat: no-repeat;
     margin: 50px 0px 128px 40px;
 }
-.deals-discription h1{
+.deals-description h1{
     padding-top: 122px;
     color: #272727;
     text-align: center;
@@ -256,14 +250,14 @@ span{
     font-weight: 800;
     margin-bottom: 16px;
 }
-.deals-discription p{
+.deals-description p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 48px;
 }
-.deals-discription input{
+.deals-description input{
     width: 700px;
     height: 64px;
     border: none;
@@ -276,25 +270,23 @@ span{
     font-weight: 400; 
     margin-right: 10px;
 }
-
 /* Footer Section */
-
 .footer{
     background-color: black;
     color: rgba(255, 255, 255, 0.90);
     padding: 128px;
 }
-.footer-discription{
+.footer-description{
     text-align: center;
 }
-.footer-discription p{
+.footer-description p{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-bottom:32px;
 }
-.footer-discription h1{
+.footer-description h1{
     margin-bottom: 24px;
     font-size: 40px;
     font-weight: 800px;
@@ -309,7 +301,7 @@ span{
     align-items: start;
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
-    padding-top: 5px;
+    padding-top: 2px;
     padding-bottom: 5px;
 }
 
